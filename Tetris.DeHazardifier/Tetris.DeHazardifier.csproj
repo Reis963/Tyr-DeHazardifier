@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>Tetris.DeHazardifier</AssemblyName>
+    <RootNamespace>Tetris.DeHazardifier</RootNamespace>
+    <Authors>Tetris, CJ, Tyrian</Authors>
+    <Version>1.1.2</Version>
+    <Description>De-Hazardifier for SPT 4.1.5</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BepInEx"><HintPath>../References/BepInEx/BepInEx.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>../References/BepInEx/0Harmony.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="spt-reflection"><HintPath>../References/SPT/spt-reflection.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Assembly-CSharp"><HintPath>../References/Tarkov/Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Comfort"><HintPath>../References/Tarkov/Comfort.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Comfort.Unity"><HintPath>../References/Tarkov/Comfort.Unity.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine"><HintPath>../References/Tarkov/UnityEngine.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>../References/Tarkov/UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.PhysicsModule"><HintPath>../References/Tarkov/UnityEngine.PhysicsModule.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

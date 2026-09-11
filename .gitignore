@@ -6,3 +6,7 @@ bin/
 .idea/
 
 release/
+References/
+tools/
+.dotnet-cli-home/
+/docs
